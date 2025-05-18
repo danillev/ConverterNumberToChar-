@@ -58,6 +58,7 @@
             buttonOne.Name = "buttonOne";
             buttonOne.Size = new Size(95, 55);
             buttonOne.TabIndex = 1;
+            buttonOne.Tag = "1";
             buttonOne.Text = "1";
             buttonOne.UseVisualStyleBackColor = true;
             // 
@@ -68,6 +69,7 @@
             buttonTwo.Name = "buttonTwo";
             buttonTwo.Size = new Size(95, 55);
             buttonTwo.TabIndex = 2;
+            buttonTwo.Tag = "2";
             buttonTwo.Text = "2";
             buttonTwo.UseVisualStyleBackColor = true;
             // 
@@ -78,6 +80,7 @@
             buttonThree.Name = "buttonThree";
             buttonThree.Size = new Size(95, 55);
             buttonThree.TabIndex = 3;
+            buttonThree.Tag = "3";
             buttonThree.Text = "3";
             buttonThree.UseVisualStyleBackColor = true;
             // 
@@ -88,6 +91,7 @@
             buttonFour.Name = "buttonFour";
             buttonFour.Size = new Size(95, 55);
             buttonFour.TabIndex = 4;
+            buttonFour.Tag = "4";
             buttonFour.Text = "4";
             buttonFour.UseVisualStyleBackColor = true;
             // 
@@ -98,6 +102,7 @@
             buttonFive.Name = "buttonFive";
             buttonFive.Size = new Size(95, 55);
             buttonFive.TabIndex = 5;
+            buttonFive.Tag = "5";
             buttonFive.Text = "5";
             buttonFive.UseVisualStyleBackColor = true;
             // 
@@ -108,6 +113,7 @@
             buttonSix.Name = "buttonSix";
             buttonSix.Size = new Size(95, 55);
             buttonSix.TabIndex = 6;
+            buttonSix.Tag = "6";
             buttonSix.Text = "6";
             buttonSix.UseVisualStyleBackColor = true;
             // 
@@ -118,6 +124,7 @@
             buttonSeven.Name = "buttonSeven";
             buttonSeven.Size = new Size(95, 55);
             buttonSeven.TabIndex = 7;
+            buttonSeven.Tag = "7";
             buttonSeven.Text = "7";
             buttonSeven.UseVisualStyleBackColor = true;
             buttonSeven.Click += buttonSeven_Click;
@@ -129,6 +136,7 @@
             buttonEight.Name = "buttonEight";
             buttonEight.Size = new Size(95, 55);
             buttonEight.TabIndex = 8;
+            buttonEight.Tag = "8";
             buttonEight.Text = "8";
             buttonEight.UseVisualStyleBackColor = true;
             // 
@@ -139,6 +147,7 @@
             buttonNine.Name = "buttonNine";
             buttonNine.Size = new Size(95, 55);
             buttonNine.TabIndex = 9;
+            buttonNine.Tag = "9";
             buttonNine.Text = "9";
             buttonNine.UseVisualStyleBackColor = true;
             // 
@@ -149,6 +158,7 @@
             buttonStar.Name = "buttonStar";
             buttonStar.Size = new Size(95, 55);
             buttonStar.TabIndex = 10;
+            buttonStar.Tag = "10";
             buttonStar.Text = "*";
             buttonStar.UseVisualStyleBackColor = true;
             // 
@@ -159,6 +169,7 @@
             buttonZero.Name = "buttonZero";
             buttonZero.Size = new Size(95, 55);
             buttonZero.TabIndex = 11;
+            buttonZero.Tag = "0";
             buttonZero.Text = "0";
             buttonZero.UseVisualStyleBackColor = true;
             // 
@@ -169,10 +180,11 @@
             buttonHash.Name = "buttonHash";
             buttonHash.Size = new Size(95, 55);
             buttonHash.TabIndex = 12;
+            buttonHash.Tag = "11";
             buttonHash.Text = "#";
             buttonHash.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -190,7 +202,7 @@
             Controls.Add(buttonTwo);
             Controls.Add(buttonOne);
             Controls.Add(displayTextBox);
-            Name = "Form1";
+            Name = "MainForm";
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();
