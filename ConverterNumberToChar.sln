@@ -9,6 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConverterNumberToChar", "Co
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConverterNumberToChar.BLL", "ConverterNumberToChar.BLL\ConverterNumberToChar.BLL.csproj", "{23BBC13E-A64C-4DBB-AF82-58E9F465BA3F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B4E3E44B-A4B0-43E5-ADC9-4905F24C3ADB} = {B4E3E44B-A4B0-43E5-ADC9-4905F24C3ADB}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConverterNumberToChar.DAL", "ConverterNumberToChar.DAL\ConverterNumberToChar.DAL.csproj", "{B4E3E44B-A4B0-43E5-ADC9-4905F24C3ADB}"
 EndProject
