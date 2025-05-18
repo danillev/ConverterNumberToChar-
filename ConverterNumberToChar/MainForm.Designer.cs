@@ -58,9 +58,10 @@
             buttonOne.Name = "buttonOne";
             buttonOne.Size = new Size(95, 55);
             buttonOne.TabIndex = 1;
-            buttonOne.Tag = "1";
+            buttonOne.Tag = "";
             buttonOne.Text = "1";
             buttonOne.UseVisualStyleBackColor = true;
+            buttonOne.Click += this.NumberButton_Click;
             // 
             // buttonTwo
             // 
@@ -69,9 +70,10 @@
             buttonTwo.Name = "buttonTwo";
             buttonTwo.Size = new Size(95, 55);
             buttonTwo.TabIndex = 2;
-            buttonTwo.Tag = "2";
+            buttonTwo.Tag = "";
             buttonTwo.Text = "2";
             buttonTwo.UseVisualStyleBackColor = true;
+            buttonTwo.Click += this.NumberButton_Click;
             // 
             // buttonThree
             // 
@@ -80,9 +82,10 @@
             buttonThree.Name = "buttonThree";
             buttonThree.Size = new Size(95, 55);
             buttonThree.TabIndex = 3;
-            buttonThree.Tag = "3";
+            buttonThree.Tag = "";
             buttonThree.Text = "3";
             buttonThree.UseVisualStyleBackColor = true;
+            buttonThree.Click += this.NumberButton_Click;
             // 
             // buttonFour
             // 
@@ -91,9 +94,10 @@
             buttonFour.Name = "buttonFour";
             buttonFour.Size = new Size(95, 55);
             buttonFour.TabIndex = 4;
-            buttonFour.Tag = "4";
+            buttonFour.Tag = "";
             buttonFour.Text = "4";
             buttonFour.UseVisualStyleBackColor = true;
+            buttonFour.Click += this.NumberButton_Click;
             // 
             // buttonFive
             // 
@@ -102,9 +106,10 @@
             buttonFive.Name = "buttonFive";
             buttonFive.Size = new Size(95, 55);
             buttonFive.TabIndex = 5;
-            buttonFive.Tag = "5";
+            buttonFive.Tag = "";
             buttonFive.Text = "5";
             buttonFive.UseVisualStyleBackColor = true;
+            buttonFive.Click += this.NumberButton_Click;
             // 
             // buttonSix
             // 
@@ -113,9 +118,10 @@
             buttonSix.Name = "buttonSix";
             buttonSix.Size = new Size(95, 55);
             buttonSix.TabIndex = 6;
-            buttonSix.Tag = "6";
+            buttonSix.Tag = "";
             buttonSix.Text = "6";
             buttonSix.UseVisualStyleBackColor = true;
+            buttonSix.Click += this.NumberButton_Click;
             // 
             // buttonSeven
             // 
@@ -124,10 +130,10 @@
             buttonSeven.Name = "buttonSeven";
             buttonSeven.Size = new Size(95, 55);
             buttonSeven.TabIndex = 7;
-            buttonSeven.Tag = "7";
+            buttonSeven.Tag = "";
             buttonSeven.Text = "7";
             buttonSeven.UseVisualStyleBackColor = true;
-            buttonSeven.Click += buttonSeven_Click;
+            buttonSeven.Click += NumberButton_Click;
             // 
             // buttonEight
             // 
@@ -136,9 +142,10 @@
             buttonEight.Name = "buttonEight";
             buttonEight.Size = new Size(95, 55);
             buttonEight.TabIndex = 8;
-            buttonEight.Tag = "8";
+            buttonEight.Tag = "";
             buttonEight.Text = "8";
             buttonEight.UseVisualStyleBackColor = true;
+            buttonEight.Click += this.NumberButton_Click;
             // 
             // buttonNine
             // 
@@ -147,9 +154,10 @@
             buttonNine.Name = "buttonNine";
             buttonNine.Size = new Size(95, 55);
             buttonNine.TabIndex = 9;
-            buttonNine.Tag = "9";
+            buttonNine.Tag = "";
             buttonNine.Text = "9";
             buttonNine.UseVisualStyleBackColor = true;
+            buttonNine.Click += this.NumberButton_Click;
             // 
             // buttonStar
             // 
@@ -158,9 +166,10 @@
             buttonStar.Name = "buttonStar";
             buttonStar.Size = new Size(95, 55);
             buttonStar.TabIndex = 10;
-            buttonStar.Tag = "10";
+            buttonStar.Tag = "";
             buttonStar.Text = "*";
             buttonStar.UseVisualStyleBackColor = true;
+            buttonStar.Click += this.btnStar_Click;
             // 
             // buttonZero
             // 
@@ -169,9 +178,10 @@
             buttonZero.Name = "buttonZero";
             buttonZero.Size = new Size(95, 55);
             buttonZero.TabIndex = 11;
-            buttonZero.Tag = "0";
+            buttonZero.Tag = "";
             buttonZero.Text = "0";
             buttonZero.UseVisualStyleBackColor = true;
+            buttonZero.Click += this.NumberButton_Click;
             // 
             // buttonHash
             // 
@@ -180,9 +190,10 @@
             buttonHash.Name = "buttonHash";
             buttonHash.Size = new Size(95, 55);
             buttonHash.TabIndex = 12;
-            buttonHash.Tag = "11";
+            buttonHash.Tag = "";
             buttonHash.Text = "#";
             buttonHash.UseVisualStyleBackColor = true;
+            buttonHash.Click += this.btnHash_Click;
             // 
             // MainForm
             // 

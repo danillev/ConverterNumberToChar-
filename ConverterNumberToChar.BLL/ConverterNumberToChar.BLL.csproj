@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ConverterNumberToChar.DAL\ConverterNumberToChar.DAL.csproj" />
+  </ItemGroup>
+
 </Project>

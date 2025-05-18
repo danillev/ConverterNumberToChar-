@@ -2,16 +2,16 @@
 
 public enum ButtonTypeEnum
 {
-    Button0 = 0,
-    Button1 = 1,
-    Button2 = 2,
-    Button3 = 3,
-    Button4 = 4,
-    Button5 = 5,
-    Button6 = 6,
-    Button7 = 7,
-    Button8 = 8,
-    Button9 = 9,
+    ButtonZero = 0,
+    ButtonOne = 1,
+    ButtonTwo = 2,
+    ButtonThree = 3,
+    ButtonFour = 4,
+    ButtonFive = 5,
+    ButtonSix = 6,
+    ButtonSeven = 7,
+    ButtonEight = 8,
+    ButtonNine = 9,
     ButtonStar = 10,    // *
     ButtonHash = 11     // #
 }
